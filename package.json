@@ -1,0 +1,26 @@
+{
+  "name": "@qmoosa/lending-sdk",
+  "version": "1.0.0",
+  "description": "Decentralized Lending & Borrowing SDK — Type-safe client, transaction builders & chain adapters",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/sdk.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "lending",
+    "sdk",
+    "client",
+    "defi"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
